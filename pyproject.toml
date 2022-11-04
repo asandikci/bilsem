@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "bilsem"
+version = "0.1.0"
+description = "bilsem first AI project"
+authors = ["Aliberk Sandıkçı <git@aliberksandikci.com.tr>"]
+license = "GPL-3.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.group.dev.dependencies]
+pandas = "^1.5.1"
+sklearn = "^0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
